@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index_style.css">
+    <title>KaBum!</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="side-nav">
+        <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+        <div class="side-div account">
+            <a href="">Minha conta</a>
+            <a href="">Meus pedidos</a>
+            <a href="">Favoritos</a>
+            <a href="">Atendimento</a>
+        </div>
+        <div class="side-div news">
+            <a href="">Mais procurados</a>
+            <a href="">Acabaram de chegar</a>
+        </div>
+        <div class="side-div offers">
+            <a href="">Oferta do dia</a>
+        </div>
+        <div class="side-div come-be">
+            <a href="">Seja Prime Ninja</a>
+            <a href="">Cartão KaBuM!</a>
+            <a href="">PIX</a>
+        </div>
+    </div>
+
+    <span class="sidebar-icon" onclick="openNav()">&#9776</span>
+
+    <nav class="nav-links">
+        <div class="links">
+            <a href="">TODOS OS DEPARTAMENTOS</a>
+            <a href="">LANÇAMENTOS</a>
+            <a href="">DESTAQUES</a>
+            <a href="">PC GAMER</a>
+            <a href="">ELETRÔNICOS</a>
+            <a href="">SEJA PRIME</a>
+        </div>
+    </nav>
+
+    <!-- scripts -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+/* nav-bar styles */
+
+.nav-links {
+    background-color: #ff6500;
+    max-width: 100%;
+    font-family: Poppins, sans-serif;
+}
+
+.links {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.links a {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* side-bar styles */
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0060b1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-nav a {
+    display: block;
+    padding: 16px 0px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.side-nav .close-button {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 46px;
+    margin-left: 0px;
+}
+
+.account {
+    box-sizing: border-box;
+}
+
+.account,
+.news,
+.offers {
+    border-bottom: 1px solid #80b0d8;
+    border-radius: 1px;
+}
+
+.account,
+.news,
+.offers,
+.come-be {
+    padding: 1rem 0px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
