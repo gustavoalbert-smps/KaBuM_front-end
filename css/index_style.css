@@ -3,7 +3,8 @@
 .nav-links {
     background-color: #ff6500;
     max-width: 100%;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
 }
 
 .links {
@@ -40,7 +41,7 @@
     display: block;
     padding: 16px 0px;
     color: white;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
@@ -73,4 +74,72 @@
     padding: 1rem 0px;
     margin-right: 2rem;
     margin-left: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #0060b1;
+}
+
+.kabum-form {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-search {
+    display: flex;
+    font-size: 16px;
+}
+
+#input-search {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    position: relative;
+    width: 100%;
+    height: 1.85rem;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 3px 16px;
+    color: rgb(66, 70, 77);
+}
+
+.kabum-logo {
+    width: 140px;
+}
+
+.sidebar-icon {
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+p.login-register-p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+p.login-register-p a {
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+p.login-register-p a:hover {
+    text-decoration: underline;
+}
+
+.icons-header {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.icons-header i.material-icons {
+    width: 2.25rem;
+    height: 2.25rem;
+    color: rgb(255, 255, 255, 0.8);
 }

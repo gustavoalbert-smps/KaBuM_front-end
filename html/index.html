@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="/css/index_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
     <title>KaBum!</title>
 </head>
 
 <body>
+    <!-- sidebar nav -->
     <div id="mySidenav" class="side-nav">
         <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
         <div class="side-div account">
@@ -32,8 +41,27 @@
         </div>
     </div>
 
-    <span class="sidebar-icon" onclick="openNav()">&#9776</span>
+    <div class="header">
+        <span class="sidebar-icon" onclick="openNav()">&#9776</span>
+        <a href=""><img src="/img/www.kabum.com.br_.png" alt="kabum-logo" class="kabum-logo"></a>
+        <div class="kabum-form">
+            <form class="form-search" action="" autocomplete="off">
+                <input id="input-search" placeholder="Busque aqui" type="text">
+            </form>
+        </div>
+        <div>
+            <i class='fas fa-user-circle'></i>
+            <p class="login-register-p">Faça <a href="">Login</a> ou<br>crie seu <a href="">Cadastro</a></p>
+        </div>
+        <div class="icons-header">
+            <a href=""><i class="material-icons">chat</i></a>
+            <a href=""><i class="material-icons">favorite</i></a>
+            <a href=""><i class="material-icons">shopping_cart</i></a>
+        </div>
 
+    </div>
+
+    <!-- nav-bar -->
     <nav class="nav-links">
         <div class="links">
             <a href="">TODOS OS DEPARTAMENTOS</a>
