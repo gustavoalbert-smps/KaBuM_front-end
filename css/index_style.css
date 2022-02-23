@@ -1,3 +1,10 @@
+/* base */
+
+body {
+    margin: 0;
+}
+
+
 /* nav-bar styles */
 
 .nav-links {
@@ -80,17 +87,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 40px;
+    justify-content: space-between;
+    padding: 20px 40px;
     background-color: #0060b1;
 }
 
 .kabum-form {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 512px;
 }
 
 .form-search {
     display: flex;
+    position: relative;
+    width: 100%;
     font-size: 16px;
 }
 
