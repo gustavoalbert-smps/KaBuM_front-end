@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -50,7 +51,7 @@
             </form>
         </div>
         <div>
-            <i class='fas fa-user-circle'></i>
+            <!-- <i class='fas fa-user-circle'></i> -->
             <p class="login-register-p">Faça <a href="">Login</a> ou<br>crie seu <a href="">Cadastro</a></p>
         </div>
         <div class="icons-header">
@@ -64,12 +65,24 @@
     <!-- nav-bar -->
     <nav class="nav-links">
         <div class="links">
-            <a href="">TODOS OS DEPARTAMENTOS</a>
+
+            <div class="dropdown-nav">
+                <button class="department-button">TODOS OS DEPARTAMENTOS <i class="fa fa-angle-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="">Hardware</a>
+                    <a href="">Periféricos</a>
+                    <a href="">Cadeiras</a>
+                    <a href="">Games</a>
+                    <a href="">Computadores</a>
+                </div>
+            </div>
+
             <a href="">LANÇAMENTOS</a>
             <a href="">DESTAQUES</a>
             <a href="">PC GAMER</a>
             <a href="">ELETRÔNICOS</a>
             <a href="">SEJA PRIME</a>
+
         </div>
     </nav>
 
