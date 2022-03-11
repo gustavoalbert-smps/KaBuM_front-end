@@ -17,6 +17,19 @@ body {
     background-color: #0060b1;
 }
 
+.shading {
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    overflow-y: hidden;
+    z-index: 9;
+}
+
 .kabum-form {
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -198,7 +211,7 @@ p.login-register-p a:hover {
     left: 0;
     background-color: #0060b1;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.25s;
     z-index: 998;
     scrollbar-width: thin;
 }
