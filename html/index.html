@@ -16,29 +16,50 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <title>KaBum!</title>
+
+    <!-- scripts -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "350px";
+            document.getElementById("mySidenav").style.overflowX = "visible";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </head>
 
 <body>
     <!-- sidebar nav -->
     <div id="mySidenav" class="side-nav">
-        <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
-        <div class="side-div account">
-            <a href="">Minha conta</a>
-            <a href="">Meus pedidos</a>
-            <a href="">Favoritos</a>
-            <a href="">Atendimento</a>
+        <div class="welcome-message">
+            <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+            <h4>Olá. Faça seu login</h2>
         </div>
-        <div class="side-div news">
-            <a href="">Mais procurados</a>
-            <a href="">Acabaram de chegar</a>
+        <div class="sections">
+            <div class="side-div account">
+                <a class="side-nav-link" href="">Minha conta</a>
+                <a class="side-nav-link" href="">Meus pedidos</a>
+                <a class="side-nav-link" href="">Favoritos</a>
+                <a class="side-nav-link" href="">Atendimento</a>
+            </div>
+            <div class="side-div news">
+                <a class="side-nav-link" href="">Mais procurados</a>
+                <a class="side-nav-link" href="">Acabaram de chegar</a>
+            </div>
+            <div class="side-div offers">
+                <a class="side-nav-link" href="">Oferta do dia</a>
+            </div>
+            <div class="side-div come-be">
+                <a class="side-nav-link" href="">Seja Prime Ninja</a>
+                <a class="side-nav-link" href="">Cartão KaBuM!</a>
+                <a class="side-nav-link" href="">PIX</a>
+            </div>
         </div>
-        <div class="side-div offers">
-            <a href="">Oferta do dia</a>
-        </div>
-        <div class="side-div come-be">
-            <a href="">Seja Prime Ninja</a>
-            <a href="">Cartão KaBuM!</a>
-            <a href="">PIX</a>
+        <div class="credentials">
+            <button class="login-button">LOGIN</button>
+            <a href="" class="register side-nav-link">CADASTRO</a>
         </div>
     </div>
 
@@ -86,16 +107,6 @@
         </div>
     </nav>
 
-    <!-- scripts -->
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
 </body>
 
 </html>
